@@ -36,7 +36,7 @@ public class App
 		if (impar(number)) { 
 			setNumber(2);
 		}
-	}
+	} 
 
 	/**
 	 * Impar.
@@ -53,7 +53,7 @@ public class App
     
     /**
      * The main method.
-     *
+     * 
      * @param args the arguments
      */
     public static void main( String[] args )
