@@ -48,6 +48,7 @@ public class AppTest
     @org.junit.Test
     public void test() {
     	App a = new App();
+    	a.setNumber(1);
     	assertEquals(1, a.getNumber());
     }
     
@@ -81,4 +82,10 @@ public class AppTest
     	int number = 4;
     	assertFalse(a.impar(number));
     }
+    
+    @org.junit.Test
+	public void testMain() {
+		App.main(null);
+	}
+
 }
